@@ -9,4 +9,5 @@
 * run docker container with Postgres `docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
 * create database with name `gobarber`
 * run database migrations `yarn sequelize db:migrate`
+* run docker container with MongoDB `docker run --name mongobarber -p 27017:27017 -d -t mongo`
 * run `yarn dev`
