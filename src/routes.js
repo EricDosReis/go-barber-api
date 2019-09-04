@@ -9,6 +9,7 @@ import FileController from './app/controllers/File';
 import ProviderController from './app/controllers/Provider';
 import AppointmentController from './app/controllers/Appointment';
 import ScheduleController from './app/controllers/Schedule';
+import NotificationController from './app/controllers/Notification';
 
 import authMiddleware from './app/middlewares/auth';
 
@@ -31,5 +32,7 @@ routes.post('/appointments', AppointmentController.store);
 routes.get('/appointments', AppointmentController.index);
 
 routes.get('/schedule', ScheduleController.index);
+
+routes.get('/notifications', NotificationController.index);
 
 export default routes;
