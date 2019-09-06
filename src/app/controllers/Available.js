@@ -3,7 +3,6 @@ import {
 } from 'date-fns';
 import { Op } from 'sequelize';
 
-import User from '../models/User';
 import Appointment from '../models/Appointment';
 
 const schedule = [
