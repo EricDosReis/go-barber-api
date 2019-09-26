@@ -13,3 +13,7 @@
 * run database migrations `yarn sequelize db:migrate`
 * run dev `yarn dev`
 * start queue `yarn queue`
+
+## API docs
+
+You can use [Insominia](https://insomnia.rest/download/) to make HTTP requests to the server. Import [gobarber-api.json](https://github.com/EricDosReis/go-barber-api/blob/master/gobarber-api.json) and enjoy.
